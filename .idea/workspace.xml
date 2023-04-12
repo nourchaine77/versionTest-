@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17de2fe9-85c8-4a10-b9c8-c043a5c09e28" name="Changes" comment="versionTest">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GreenSteps.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/Publicite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/IServicPublicite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/IServiceEvenement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/IServiceTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/ServiceEvenement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/ServicePublicite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/ServiceTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/AjouterEvenementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/AjouterPublicite.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/AjouterPubliciteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/AjouterTicket.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/AjouterTicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/ConsulterEvenementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/ConsulterPublicite.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/ConsulterPubliciteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/ConsulterTicket.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/ConsulterTicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/ConusulterEventdash.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/EditerEvenement.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/EditerEvenementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/EditerPublicite.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/EditerPubliciteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/EditerTicket.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/EditerTicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/EventDash.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/EventDash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/FirstWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/dashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Myconnexion.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2O4iWbKvKDYQK5ZdrhuVEq7jr2x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/IdeaProjects/GreenSteps&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="gui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\IdeaProjects\GreenSteps\src\gui" />
+      <recent name="C:\Users\Lenovo\IdeaProjects\GreenSteps\src\Entities" />
+      <recent name="C:\Users\Lenovo\IdeaProjects\GreenSteps\src\Services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FirstWindow">
+    <configuration name="FirstWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.FirstWindow" />
+      <module name="GreenSteps" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-19\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="GreenSteps" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FirstWindow" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FirstWindow" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17de2fe9-85c8-4a10-b9c8-c043a5c09e28" name="Changes" comment="" />
+      <created>1680826291178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680826291178</updated>
+      <workItem from="1681297122705" duration="20621000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="versionTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="versionTest" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

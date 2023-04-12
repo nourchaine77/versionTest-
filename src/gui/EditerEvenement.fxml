@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TableView?>
+<VBox fx:id="content" prefHeight="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.EditerEvenementController">
+
+    <children>
+        <Label layoutX="108.0" layoutY="52.0" text="Nom" />
+        <TextField fx:id="fxNom" layoutX="258.0" layoutY="48.0" />
+        <Label layoutX="104.0" layoutY="96.0" text="Description" />
+        <TextField fx:id="fxDescription" layoutX="258.0" layoutY="92.0" />
+        <Label layoutX="106.0" layoutY="140.0" text="Lieu" />
+        <TextField fx:id="fxLieu" layoutX="258.0" layoutY="136.0" />
+        <Label layoutX="102.0" layoutY="185.0" text="Date" />
+        <DatePicker fx:id="fxDate" layoutX="258.0" layoutY="181.0" />
+        <Label layoutX="104.0" layoutY="240.0" text="Image" />
+        <TextField fx:id="fxImage" editable="false" layoutX="257.0" layoutY="236.0" prefHeight="26.0" prefWidth="150.0" promptText="Icon" />
+        <Button fx:id="btnIcon" layoutX="424.0" layoutY="236.0" mnemonicParsing="false" onMouseClicked="#chooseFile" prefHeight="26.0" prefWidth="55.0" text="Image">
+        </Button>
+        <Button fx:id="fxButton" layoutX="259.0" layoutY="358.0" mnemonicParsing="false" onAction="#saveEvenement" text="Modifier" />
+        <ImageView fx:id="imageaffi" fitHeight="80.0" fitWidth="106.0" layoutX="487.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</VBox>

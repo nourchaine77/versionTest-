@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="content" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="gui.ConsulterEvenementController">
+    <children>
+        <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="10.0">
+            <HBox alignment="CENTER" spacing="10.0">
+                <TextField fx:id="searchField" promptText="Rechercher par nom" />
+                <Button fx:id="searchButton" text="Rechercher" />
+            </HBox>
+            <TableView fx:id="tableView" prefHeight="300.0" prefWidth="600.0">
+                <columns>
+                    <TableColumn fx:id="idColumn" prefWidth="50.0" text="ID" />
+                    <TableColumn fx:id="nomColumn" prefWidth="100.0" text="Nom" />
+                    <TableColumn fx:id="descriptionColumn" prefWidth="200.0" text="Description" />
+                    <TableColumn fx:id="lieuColumn" prefWidth="100.0" text="Lieu" />
+                    <TableColumn fx:id="imageColumn" prefWidth="50.0" text="Image" />
+                    <TableColumn fx:id="dateColumn" prefWidth="100.0" text="Date" />
+
+                </columns>
+            </TableView>
+        </VBox>
+    </children>
+</VBox>

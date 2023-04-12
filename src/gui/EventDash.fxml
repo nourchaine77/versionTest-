@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.EventDash">
+   <children>
+      <VBox fx:id="content" layoutX="13.0" layoutY="23.0" prefHeight="323.0" prefWidth="600.0">
+         <children>
+      
+         <HBox id="header" fx:id="f" alignment="TOP_CENTER" prefHeight="82.0" prefWidth="554.0" style="-fx-padding: 0 10 0 10;">
+            <children>
+               <Button fx:id="btnajouter" alignment="CENTER" onAction="#handleajouterEvent" prefHeight="59.0" prefWidth="226.0" style="-fx-font-family: 'Roboto', sans-serif; -fx-font-size: 15px; -fx-text-fill: white; -fx-pref-width: 220px; -fx-pref-height: 40px; -fx-background-color: #48A34C; -fx-background-radius: 5px;" text="Ajouter Evenement" textFill="#f7f7f7" />
+                  <Button fx:id="btnajouter1" alignment="CENTER" layoutX="176.0" layoutY="10.0" onAction="#handleconsulterEvent" prefHeight="59.0" prefWidth="226.0" style="-fx-font-family: 'Roboto', sans-serif; -fx-font-size: 15px; -fx-text-fill: white; -fx-pref-width: 220px; -fx-pref-height: 40px; -fx-background-color: #48A34C; -fx-background-radius: 5px;" text="Consulter Evenements" textFill="#f7f7f7" />
+            </children>
+         </HBox>
+            <HBox id="header" fx:id="f1" alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="82.0" prefWidth="554.0" style="-fx-padding: 0 10 0 10;">
+               <children>
+                  <Button fx:id="btnajoute" alignment="CENTER" onAction="#handleajouterPublicite" prefHeight="59.0" prefWidth="226.0" style="-fx-font-family: 'Roboto', sans-serif; -fx-font-size: 15px; -fx-text-fill: white; -fx-pref-width: 220px; -fx-pref-height: 40px; -fx-background-color: #48A34C; -fx-background-radius: 5px;" text="Ajouter publicite" textFill="#f7f7f7" />
+                  <Button fx:id="btnajouter11" alignment="CENTER" layoutX="176.0" layoutY="10.0" onAction="#handleajouterTicket" prefHeight="59.0" prefWidth="226.0" style="-fx-font-family: 'Roboto', sans-serif; -fx-font-size: 15px; -fx-text-fill: white; -fx-pref-width: 220px; -fx-pref-height: 40px; -fx-background-color: #48A34C; -fx-background-radius: 5px;" text="Ajouter ticket" textFill="#f7f7f7" />
+               </children>
+            </HBox>
+
+       <HBox id="header" fx:id="f2" alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="82.0" prefWidth="554.0" style="-fx-padding: 0 10 0 10;">
+           <children>
+               <Button fx:id="btnajoutes" alignment="CENTER" onAction="#handleconsulterPub" prefHeight="59.0" prefWidth="226.0" style="-fx-font-family: 'Roboto', sans-serif; -fx-font-size: 15px; -fx-text-fill: white; -fx-pref-width: 220px; -fx-pref-height: 40px; -fx-background-color: #48A34C; -fx-background-radius: 5px;" text="Consulter Publicites" textFill="#f7f7f7" />
+               <Button fx:id="btnajouter12" alignment="CENTER" layoutX="176.0" layoutY="10.0" onAction="#handleConsulterTicket" prefHeight="59.0" prefWidth="226.0" style="-fx-font-family: 'Roboto', sans-serif; -fx-font-size: 15px; -fx-text-fill: white; -fx-pref-width: 220px; -fx-pref-height: 40px; -fx-background-color: #48A34C; -fx-background-radius: 5px;" text="Consulter Tickets" textFill="#f7f7f7" />
+           </children>
+       </HBox>
+         </children>
+
+      </VBox>
+   </children>
+</Pane>

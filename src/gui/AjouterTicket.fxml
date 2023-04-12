@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:id="root"
+            fx:controller="gui.AjouterTicketController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <TextField fx:id="tfPrix" layoutX="40.0" layoutY="40.0" promptText="Prix"/>
+    <ChoiceBox fx:id="cbType" layoutX="40.0" layoutY="80.0"/>
+    <ChoiceBox fx:id="cbEvenement" layoutX="40.0" layoutY="120.0"/>
+    <TextField fx:id="tfNbrTicket" layoutX="40.0" layoutY="160.0" promptText="Nombre de tickets"/>
+
+    <Button text="Ajouter" layoutX="40.0" layoutY="200.0" onAction="#saveTicket"/>
+
+</AnchorPane>
