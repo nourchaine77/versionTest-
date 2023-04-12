@@ -5,51 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17de2fe9-85c8-4a10-b9c8-c043a5c09e28" name="Changes" comment="versionTest">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GreenSteps.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/Publicite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/IServicPublicite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/IServiceEvenement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/IServiceTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/ServiceEvenement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/ServicePublicite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/ServiceTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/AjouterEvenementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/AjouterPublicite.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/AjouterPubliciteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/AjouterTicket.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/AjouterTicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/ConsulterEvenementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/ConsulterPublicite.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/ConsulterPubliciteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/ConsulterTicket.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/ConsulterTicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/ConusulterEventdash.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/DashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/EditerEvenement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/EditerEvenementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/EditerPublicite.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/EditerPubliciteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/EditerTicket.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/EditerTicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/EventDash.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/EventDash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/FirstWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/Myconnexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,8 +116,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680826291178</updated>
-      <workItem from="1681297122705" duration="20621000" />
+      <workItem from="1681297122705" duration="21248000" />
     </task>
+    <task id="LOCAL-00001" summary="versionTest">
+      <created>1681328878898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681328878898</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
