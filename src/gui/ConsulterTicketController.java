@@ -87,7 +87,7 @@ public class ConsulterTicketController implements Initializable {
                         Node node = loader.load();
                         EditerTicketController controller = loader.getController();
                         Ticket p = getTableRow().getItem();
-                        controller.serviceTicket.ajouterTicket(p);
+                        controller.setTicket(p);
 
                         content.getChildren().clear();
                         content.getChildren().add(node);

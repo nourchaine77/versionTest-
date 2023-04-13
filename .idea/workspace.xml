@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17de2fe9-85c8-4a10-b9c8-c043a5c09e28" name="Changes" comment="versionTest">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b3474a61-3519-4dd0-871d-2a6f21d85c27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b3474a61-3519-4dd0-871d-2a6f21d85c27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Publicite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Publicite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/IServiceEvenement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/IServiceEvenement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/ServicePublicite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/ServicePublicite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/ServiceTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/ServiceTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/AjouterPubliciteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/AjouterPubliciteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/AjouterTicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/AjouterTicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/ConsulterPubliciteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ConsulterPubliciteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/ConsulterTicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ConsulterTicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/EditerPublicite.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/EditerPublicite.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/EditerPubliciteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/EditerPubliciteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/EditerTicket.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/EditerTicket.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/EditerTicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/EditerTicketController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +40,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/out/production/GreenSteps/gui/EditerTicket.fxml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,6 +70,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -73,6 +91,9 @@
       <recent name="C:\Users\Lenovo\IdeaProjects\GreenSteps\src\gui" />
       <recent name="C:\Users\Lenovo\IdeaProjects\GreenSteps\src\Entities" />
       <recent name="C:\Users\Lenovo\IdeaProjects\GreenSteps\src\Services" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="gui" />
     </key>
   </component>
   <component name="RunManager" selected="Application.FirstWindow">
@@ -116,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680826291178</updated>
-      <workItem from="1681297122705" duration="21248000" />
+      <workItem from="1681297122705" duration="38859000" />
     </task>
     <task id="LOCAL-00001" summary="versionTest">
       <created>1681328878898</created>
@@ -125,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681328878898</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="versionTest">
+      <created>1681329539466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681329539466</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

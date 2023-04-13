@@ -16,7 +16,7 @@ public class Publicite {
     private Date dateFin;
     private int idevenement;
 
-
+Evenement evenement =new Evenement();
     public Publicite(int id, String nom, String image, Date dateDebut, Date dateFin, int idevenement) {
         this.id = id;
         this.nom = nom;
@@ -95,6 +95,10 @@ public class Publicite {
 
     public void setIdevenement(int idevenement) {
         this.idevenement = idevenement;
+    }
+
+    public Evenement getEvenement() {
+        return evenement;
     }
 }
 

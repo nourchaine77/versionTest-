@@ -95,7 +95,7 @@ public class ConsulterPubliciteController implements Initializable {
                         Node node = loader.load();
                         EditerPubliciteController controller = loader.getController();
                         Publicite p = getTableRow().getItem();
-                        controller.servicePublicite.ajouterPublicite(p);
+                        controller.setPublicite(p);
 
                         content.getChildren().clear();
                         content.getChildren().add(node);

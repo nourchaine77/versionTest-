@@ -5,16 +5,18 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
-<VBox fx:id="content" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.EditerTicketController">
+<VBox fx:id="content" prefHeight="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.EditerTicketController">
     <children>
-        <Label layoutX="108.0" layoutY="52.0" text="Prix" />
-        <TextField fx:id="tfPrix" layoutX="258.0" layoutY="48.0" />
-        <Label layoutX="104.0" layoutY="96.0" text="Type" />
-        <ChoiceBox fx:id="cbType" layoutX="258.0" layoutY="92.0" prefWidth="150.0" />
-        <Label layoutX="106.0" layoutY="140.0" text="Evènement" />
-        <ChoiceBox fx:id="cbEvenement" layoutX="258.0" layoutY="136.0" prefWidth="150.0" />
-        <Label layoutX="102.0" layoutY="185.0" text="Nombre de tickets" />
-        <TextField fx:id="tfNbrTicket" layoutX="258.0" layoutY="181.0" />
-        <Button fx:id="saveButton" layoutX="259.0" layoutY="358.0" mnemonicParsing="false" onAction="#saveTicket" text="Modifier" />
+        <Label text="Prix" />
+        <TextField fx:id="fxPrix" />
+        <Label text="Type" />
+        <ChoiceBox fx:id="cbType" />
+        <Label text="Événement" />
+        <ChoiceBox fx:id="cbEvenement" />
+        <Label text="Nombre de tickets" />
+        <TextField fx:id="fxnbrTickets" />
+        <Label text="État" />
+        <TextField fx:id="fxEtat" />
+        <Button fx:id="fxButton" text="Modifier" onAction="#saveTicket" />
     </children>
 </VBox>

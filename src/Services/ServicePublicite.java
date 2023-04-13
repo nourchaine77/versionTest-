@@ -49,14 +49,14 @@ public class ServicePublicite implements IServicPublicite{
     @Override
     public boolean modifierPublicite(Publicite p) {
         try {
-            String query = "UPDATE publicite SET nom=?, image=?, date_Debut=?, date_Fin=?, evenement_id=? WHERE id=?";
+            String query = "UPDATE publicite SET nom=?, image=?, date_Debut=?, date_Fin=? ,evenement_id=? WHERE id=?";
             PreparedStatement pstmt = Myconnexion.getCnx().prepareStatement(query);
+            pstmt.setInt(6, p.getId());
             pstmt.setString(1, p.getNom());
             pstmt.setString(2, p.getImage());
             pstmt.setDate(3, p.getDateDebut() != null ? new java.sql.Date(p.getDateDebut().getTime()) : null);
             pstmt.setDate(4, p.getDateFin() != null ? new java.sql.Date(p.getDateFin().getTime()) : null);
             pstmt.setInt(5, p.getIdevenement());
-            pstmt.setInt(6, p.getId());
             pstmt.executeUpdate();
 
             System.out.println("Publicite modifiée!");
@@ -134,6 +134,15 @@ public class ServicePublicite implements IServicPublicite{
 
 
     }
+
+    public boolean hasPublicite(int idEvenement) throws SQLException {
+        String query = "SELECT * FROM publicite WHERE evenement_id = ?";
+        PreparedStatement pstmt = Myconnexion.getCnx().prepareStatement(query);
+        pstmt.setInt(1, idEvenement);
+        ResultSet rs = pstmt.executeQuery();
+        return rs.next();
+    }
+
     }
 
 

@@ -100,6 +100,24 @@ public class AjouterPubliciteController {
         LocalDate localDateDebut = fxDateDebut.getValue();
         LocalDate localDateFin = fxDateFin.getValue();
         Evenement evenementNom = choiceBoxEvenement.getValue();
+        if (nom.isEmpty()) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setContentText("Le champ nom ne peut pas être vide.");
+            alert.showAndWait();
+            return;
+        }
+        int idEvenement = evenementNom.getId();
+        try {
+            if (servicePub.hasPublicite(idEvenement)) {
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setContentText("Cet événement a déjà une publicité associée.");
+                alert.showAndWait();
+                return;
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
 
         // Vérifier si tous les champs obligatoires sont remplis
         if (nom.isEmpty() || image.isEmpty() || localDateDebut == null || localDateFin == null || evenementNom == null) {
@@ -108,6 +126,23 @@ public class AjouterPubliciteController {
             alert.showAndWait();
             return;
         }
+        LocalDate today = LocalDate.now();
+        if (localDateDebut.isBefore(today)) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setContentText("La date de début doit être antérieure ou égale à la date d'aujourd'hui.");
+            alert.showAndWait();
+            return;
+        }
+        if (localDateFin.isBefore(today)) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setContentText("La date de fin doit être postérieure ou égale à la date d'aujourd'hui.");
+            alert.showAndWait();
+            return;
+        }
+
+//// Vérifier si l'événement sélectionné a déjà une publicité associée
+
+
         List<Evenement> evenements = null;
         try {
             evenements = servicePub.getEvenements();
@@ -115,7 +150,7 @@ public class AjouterPubliciteController {
             throw new RuntimeException(e);
         }
 
-        int idEvenement = evenementNom.getId();
+
         Date dateDebut = java.sql.Date.valueOf(localDateDebut);
         Date dateFin = java.sql.Date.valueOf(localDateFin);
 

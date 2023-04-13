@@ -41,14 +41,12 @@ public class ServiceTicket implements IServiceTicket {
             PreparedStatement pstmt = Myconnexion.getCnx().prepareStatement(query);
             pstmt.setInt(1, t.getEvenement_id());
             pstmt.setFloat(2, t.getPrix());
-
             pstmt.setString(3, t.getType());
             pstmt.setBoolean(4, t.isEtat());
             pstmt.setInt(5, t.getNbrTicket());
+            pstmt.setInt(6, t.getId());
 
             pstmt.executeUpdate();
-
-            System.out.println("Ticket modifié!");
             return true;
         } catch (SQLException ex) {
             System.out.println("SQLException: " + ex.getMessage());
@@ -57,6 +55,7 @@ public class ServiceTicket implements IServiceTicket {
         }
         return false;
     }
+
 
     @Override
     public boolean supprimerTicket(int idTicket) {

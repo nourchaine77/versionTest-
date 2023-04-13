@@ -2179,7 +2179,7 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="545" parent="354" name="id">
-      <AutoIncrement>2</AutoIncrement>
+      <AutoIncrement>17</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -2221,151 +2221,147 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
     <index id="553" parent="354" name="IDX_97A0ADA3FD02F13">
       <ColNames>evenement_id</ColNames>
       <Type>btree</Type>
-      <Unique>1</Unique>
     </index>
     <key id="554" parent="354" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <key id="555" parent="354" name="IDX_97A0ADA3FD02F13">
-      <UnderlyingIndexName>IDX_97A0ADA3FD02F13</UnderlyingIndexName>
-    </key>
-    <column id="556" parent="355" name="ticket_id">
+    <column id="555" parent="355" name="ticket_id">
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="557" parent="355" name="user_id">
+    <column id="556" parent="355" name="user_id">
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <foreign-key id="558" parent="355" name="FK_BF48C371700047D2">
+    <foreign-key id="557" parent="355" name="FK_BF48C371700047D2">
       <ColNames>ticket_id</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>id</RefColNames>
       <RefTableName>ticket</RefTableName>
     </foreign-key>
-    <foreign-key id="559" parent="355" name="FK_BF48C371A76ED395">
+    <foreign-key id="558" parent="355" name="FK_BF48C371A76ED395">
       <ColNames>user_id</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>id</RefColNames>
       <RefTableName>user</RefTableName>
     </foreign-key>
-    <index id="560" parent="355" name="PRIMARY">
+    <index id="559" parent="355" name="PRIMARY">
       <ColNames>ticket_id
 user_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="561" parent="355" name="IDX_BF48C371700047D2">
+    <index id="560" parent="355" name="IDX_BF48C371700047D2">
       <ColNames>ticket_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="562" parent="355" name="IDX_BF48C371A76ED395">
+    <index id="561" parent="355" name="IDX_BF48C371A76ED395">
       <ColNames>user_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="563" parent="355" name="PRIMARY">
+    <key id="562" parent="355" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="564" parent="356" name="id">
+    <column id="563" parent="356" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="565" parent="356" name="wallet_id">
+    <column id="564" parent="356" name="wallet_id">
       <DasType>int(11)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="566" parent="356" name="email">
+    <column id="565" parent="356" name="email">
       <DasType>varchar(180)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="567" parent="356" name="roles">
+    <column id="566" parent="356" name="roles">
       <Comment>(DC2Type:json)</Comment>
       <DasType>longtext|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="568" parent="356" name="password">
+    <column id="567" parent="356" name="password">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="569" parent="356" name="nom">
+    <column id="568" parent="356" name="nom">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="570" parent="356" name="prenom">
+    <column id="569" parent="356" name="prenom">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <foreign-key id="571" parent="356" name="FK_8D93D649712520F3">
+    <foreign-key id="570" parent="356" name="FK_8D93D649712520F3">
       <ColNames>wallet_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>wallet</RefTableName>
     </foreign-key>
-    <index id="572" parent="356" name="PRIMARY">
+    <index id="571" parent="356" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="573" parent="356" name="UNIQ_8D93D649712520F3">
+    <index id="572" parent="356" name="UNIQ_8D93D649712520F3">
       <ColNames>wallet_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="574" parent="356" name="UNIQ_8D93D649E7927C74">
+    <index id="573" parent="356" name="UNIQ_8D93D649E7927C74">
       <ColNames>email</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="575" parent="356" name="PRIMARY">
+    <key id="574" parent="356" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <key id="576" parent="356" name="UNIQ_8D93D649712520F3">
+    <key id="575" parent="356" name="UNIQ_8D93D649712520F3">
       <UnderlyingIndexName>UNIQ_8D93D649712520F3</UnderlyingIndexName>
     </key>
-    <key id="577" parent="356" name="UNIQ_8D93D649E7927C74">
+    <key id="576" parent="356" name="UNIQ_8D93D649E7927C74">
       <UnderlyingIndexName>UNIQ_8D93D649E7927C74</UnderlyingIndexName>
     </key>
-    <column id="578" parent="357" name="id">
+    <column id="577" parent="357" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="579" parent="357" name="points">
+    <column id="578" parent="357" name="points">
       <DasType>double|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="580" parent="357" name="date_creation">
+    <column id="579" parent="357" name="date_creation">
       <DasType>date|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="581" parent="357" name="date_modification">
+    <column id="580" parent="357" name="date_modification">
       <DasType>date|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <index id="582" parent="357" name="PRIMARY">
+    <index id="581" parent="357" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="583" parent="357" name="PRIMARY">
+    <key id="582" parent="357" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

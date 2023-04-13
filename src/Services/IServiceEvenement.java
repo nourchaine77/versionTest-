@@ -1,10 +1,7 @@
 package Services;
 
 import Entities.Evenement;
-import utils.Myconnexion;
 
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 

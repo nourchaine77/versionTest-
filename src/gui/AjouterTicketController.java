@@ -58,6 +58,21 @@ public class AjouterTicketController implements Initializable {
         String type = cbType.getValue();
         int nbrTicket = Integer.parseInt(tfNbrTicket.getText());
         Evenement evenement = cbEvenement.getValue();
+
+        if (prix <= 0) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setContentText("Le prix doit être un nombre positif.");
+            alert.showAndWait();
+            return;
+        }
+
+        if (nbrTicket <= 0) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setContentText("Le nombre de tickets doit être un entier positif.");
+            alert.showAndWait();
+            return;
+        }
+
         // Vérifier si tous les champs obligatoires sont remplis
         if (type == null || evenement == null) {
             Alert alert = new Alert(Alert.AlertType.ERROR);
@@ -65,6 +80,8 @@ public class AjouterTicketController implements Initializable {
             alert.showAndWait();
             return;
         }
+
+
 
         // Créer un objet Ticket avec les valeurs saisies
         Ticket ticket = new Ticket();
